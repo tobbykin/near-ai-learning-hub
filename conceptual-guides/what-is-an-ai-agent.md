@@ -116,3 +116,13 @@ NEAR AI provides the necessary tools for AI Agents to **operate transparently, s
 - **Manage smart contracts autonomously**, enforcing agreements without intermediaries.
 
 This approach shifts AI away from **corporate-controlled, opaque models** toward **open, decentralized intelligence**, ensuring greater security and reliability.
+
+## **What Comes Next?**
+
+Now that we’ve explored what AI Agents are and how they operate, the next step is understanding the core intelligence behind them: Large Language Models (LLMs).
+
+LLMs enable AI Agents to reason, learn from interactions, and generate dynamic responses, making them far more than just rule-based systems. But how do LLMs work? And more importantly, how does NEAR AI integrate them to create scalable, decentralized AI Agents?
+
+A deeper understanding of LLMs is essential for building more capable AI Agents. In the next guide, we’ll examine their inner workings and their role in shaping the next generation of autonomous systems.
+
+
