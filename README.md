@@ -39,13 +39,7 @@ Welcome to the **NEAR AI Learning Hub**! Powered by **Blockchain Acceleration Fo
 ## 🫂 Contributing
 Contributions are welcome! If you’d like to add tutorials, improve documentation, or share new use cases, feel free to submit a pull request.
 
-## ↪️ What Comes Next?
-Now that we’ve explored what AI Agents are and how they operate, the next step is understanding the core intelligence behind them: Large Language Models (LLMs).
-LLMs enable AI Agents to reason, learn from interactions, and generate dynamic responses, making them far more than just rule-based systems. But how do LLMs work? And more importantly, how does NEAR AI integrate them to create scalable, decentralized AI Agents?
-A deeper understanding of LLMs is essential for building more capable AI Agents. In the next guide, we’ll examine their inner workings and their role in shaping the next generation of autonomous systems.
-
 ## 📬 Get in Touch
-
 For discussions, feedback, or collaboration opportunities, connect with us through:
 - **Discord:** [NEAR AI Community](https://discord.com/invite/near)
 - **Twitter/X:** [@near_ai](https://x.com/near_ai)
