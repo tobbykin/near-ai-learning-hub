@@ -43,10 +43,10 @@ Contributions are welcome! If you’d like to add tutorials, improve documentati
 
 For discussions, feedback, or collaboration opportunities, connect with us through:
 - **Discord:** [NEAR AI Community](https://discord.com/invite/near)
-- **Twitter/X:** [@NEAR_AI](https://twitter.com/NEAR_AI)
+- **Twitter/X:** [@near_ai](https://x.com/near_ai)
 
 For more opportunities and educational content:
-- **Twitter/X:** [@BAFblockchain](https://twitter.com/BAFblockchain)
+- **Twitter/X:** [@TheBAFNetwork](https://x.com/TheBAFNetwork)
 - **LinkedIn:** [BAF](https://www.linkedin.com/company/blockchain-acceleration-foundation/)
 - **Website:** [www.blockchainacceleration.org](https://www.blockchainacceleration.org)
 
