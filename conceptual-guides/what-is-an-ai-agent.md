@@ -109,13 +109,16 @@ However, for AI Agents to function effectively in decentralized environments, th
 
 ## **How NEAR AI Enables the Next Generation of AI Agents**
 
-NEAR AI provides the necessary tools for AI Agents to **operate transparently, securely, and efficiently** in Web3 environments. By leveraging blockchain technology, AI Agents can:
+NEAR AI is changing how AI operates by shifting control from corporations to users. Instead of relying on centralized servers, AI Agents built with NEAR AI can function independently while ensuring transparency and security.
 
-- **Execute decisions on-chain**, ensuring full auditability.
-- **Interact with decentralized applications (dApps)** seamlessly.
-- **Manage smart contracts autonomously**, enforcing agreements without intermediaries.
+With NEAR AI, AI Agents can:
 
-This approach shifts AI away from **corporate-controlled, opaque models** toward **open, decentralized intelligence**, ensuring greater security and reliability.
+- **Give users full control over their data** – No third parties dictate how information is stored or used.
+- **Operate without centralized oversight** – Agents adapt, learn, and make decisions in real-time.
+- **Connect with decentralized applications (dApps) and smart contracts** – Expanding their capabilities in open ecosystems.
+- **Support a builder-first economy** – Developers can earn rewards for contributing to AI advancements.
+
+NEAR AI isn’t just another AI platform—it’s a foundation for building AI that serves people, not corporations. By combining open-source principles with decentralized infrastructure, it ensures AI remains accessible, accountable, and built for the future.
 
 ## **What Comes Next?**
 
