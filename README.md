@@ -8,7 +8,7 @@ Welcome to the **NEAR AI Learning Hub**! Powered by **Blockchain Acceleration Fo
 📦 near-ai-learning-hub
 ├── 📖 conceptual-guides/      # In-depth articles explaining core AI Agent concepts
 │   ├── what-is-an-ai-agent.md
-│   ├── why-build-on-near-ai.md
+│   ├── llm-inference.md
 │
 ├── 📚 tutorials/              # Step-by-step guides for building AI Agents
 │   ├── getting-started-with-near-ai.md
