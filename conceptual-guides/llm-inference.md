@@ -80,12 +80,12 @@ When an LLM processes **"What is NEAR AI?"**, it doesn’t just look at the word
 | **Head 3 (The Blockchain Engineer)** | Focuses on the **technical aspects of decentralization and smart contracts**. |
 <p align="center"><em>Example 3. How Different Team Members (Attention Heads) Interpret "What is NEAR AI?"</em></p>
 
-![Attention Heads Work](../images/08.png)
-
 Each **Attention Head** is like **one of these team members**, processing the **same input** but through a **different set of learned weights (WQ, WK, WV)**.
 
 - Instead of relying on **one perspective**, the model **combines multiple viewpoints** to create a **more accurate and context-aware response**.
 - The **final answer** is a **fusion of insights** from all Heads, ensuring a well-rounded explanation.
+
+![Attention Heads Work](../images/08.png)
 
 > ⚠️ While we use the analogy of NEAR AI team members to explain **how different Attention Heads process the input differently**, it’s important to remember that **Attention Heads are purely mathematical components of the model, not separate AI entities.**
 
