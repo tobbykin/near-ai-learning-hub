@@ -240,10 +240,13 @@ or press **Ctrl + C**.
 ## **10. Next Steps**
 
 **Congratulations!** You have successfully:
-- Installed NEAR AI
-- Logged in with your NEAR Wallet
-- Created and ran an AI agent
-- Debugged common issues
+✅ Installed NEAR AI
+
+✅ Logged in with your NEAR Wallet
+
+✅ Created and ran an AI agent
+
+✅ Debugged common issues
 
 ### **What’s Next?**
 1. Modify `agent.py` to customize your AI logic
