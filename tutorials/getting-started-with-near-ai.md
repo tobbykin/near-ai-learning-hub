@@ -237,7 +237,7 @@ or press **Ctrl + C**.
 
 ---
 
-## **10. Next Steps**
+## **10. Wrapping Up**
 
 **Congratulations!** You have successfully:
 
