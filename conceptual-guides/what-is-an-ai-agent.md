@@ -38,6 +38,8 @@ For example, in e-commerce, a traditional AI model might **suggest products base
 
 AI Agents function autonomously because they are built on four fundamental capabilities:
 
+![Core Components](../images/01.png)
+
 ### **Memory**
 
 Unlike conventional AI, which treats every request in isolation, AI Agents **retain and recall past interactions**. This allows them to **learn from user behavior, refine decision-making, and adapt strategies based on long-term goals**.
@@ -79,6 +81,8 @@ Unlike rule-based models, LLM-powered AI Agents can:
 - **Interpret ambiguous requests**, understanding nuances and intent beyond simple commands.
 - **Integrate multiple sources of knowledge**, analyzing structured and unstructured data simultaneously.
 - **Adjust their reasoning dynamically**, refining their approach based on continuous feedback.
+
+![Large Language Models (LLMs)](../images/03.png)
 
 ### **From Understanding to Action: How LLMs Work Within AI Agents**
 
