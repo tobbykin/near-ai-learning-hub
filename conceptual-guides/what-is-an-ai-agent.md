@@ -4,6 +4,8 @@ Artificial Intelligence (AI) has come a long way. From **rule-based systems** to
 
 This limitation is now being addressed with **AI Agents**, a new paradigm that introduces **autonomy, adaptability, and proactive decision-making**. Unlike traditional AI, which waits for commands, **AI Agents can plan, execute, and refine tasks independently**. They don’t just process information—they **act on it**.
 
+![The Evolution of AI](images/02.png)
+
 Imagine an AI that doesn’t just suggest flight options but **books your tickets**, **adjusts schedules in real-time**, and **handles cancellations automatically**. Or an AI system that **optimizes logistics, monitors supply chains, and negotiates with suppliers**—all without human intervention.
 
 AI Agents are no longer theoretical. They are already transforming industries, taking automation beyond simple data analysis and into **real-world decision-making**.
