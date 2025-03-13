@@ -18,6 +18,8 @@ When a user inputs **"What is NEAR AI?"**, the model follows these steps:
 4. **Generates tokens one by one** in the Decode Phase.
 5. **De-tokenizes the generated tokens** to form the final human-readable text.
 
+![Large Language Models (LLMs)](../images/03.png)
+
 Each of these steps will be explained in detail in later sections.
 
 ## 2. Tokenization and Vectorization
