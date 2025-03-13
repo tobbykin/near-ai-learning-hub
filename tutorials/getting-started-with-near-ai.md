@@ -14,7 +14,7 @@ This guide will walk you through:
 
 ✅  Running the agent interactively
 
-📢 By the end, you’ll have a functional AI agent running locally, ready for further development.
+By the end, you’ll have a functional AI agent running locally, ready for further development.
 
 ## 1. Prerequisites
 Before starting, ensure you have:
@@ -240,18 +240,14 @@ or press **Ctrl + C**.
 ## **10. Next Steps**
 
 **Congratulations!** You have successfully:
-
-✅ Installed NEAR AI
-
-✅ Logged in with your NEAR Wallet
-
-✅ Created and ran an AI agent
-
-✅ Debugged common issues
+- Installed NEAR AI
+- Logged in with your NEAR Wallet
+- Created and ran an AI agent
+- Debugged common issues
 
 ### **What’s Next?**
-- Modify `agent.py` to customize your AI logic
-- Deploy your agent on the **NEAR AI Registry**
-- Explore **multi-agent communication**
+1. Modify `agent.py` to customize your AI logic
+2. Deploy your agent on the **NEAR AI Registry**
+3. Explore **multi-agent communication**
 
 For further reading, check the [NEAR AI Documentation](https://docs.near.ai/)
