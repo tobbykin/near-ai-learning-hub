@@ -240,6 +240,7 @@ or press **Ctrl + C**.
 ## **10. Next Steps**
 
 **Congratulations!** You have successfully:
+
 ✅ Installed NEAR AI
 
 ✅ Logged in with your NEAR Wallet
