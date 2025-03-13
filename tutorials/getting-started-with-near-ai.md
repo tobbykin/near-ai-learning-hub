@@ -239,7 +239,7 @@ or press **Ctrl + C**.
 
 ## **10. Next Steps**
 
-🎉 **Congratulations!** You have successfully:
+**Congratulations!** You have successfully:
 
 ✅ Installed NEAR AI
 
@@ -250,11 +250,8 @@ or press **Ctrl + C**.
 ✅ Debugged common issues
 
 ### **What’s Next?**
-
-📌 Modify `agent.py` to customize your AI logic
-
-📌 Deploy your agent on the **NEAR AI Registry**
-
-📌 Explore **multi-agent communication**
+- Modify `agent.py` to customize your AI logic
+- Deploy your agent on the **NEAR AI Registry**
+- Explore **multi-agent communication**
 
 For further reading, check the [NEAR AI Documentation](https://docs.near.ai/)
