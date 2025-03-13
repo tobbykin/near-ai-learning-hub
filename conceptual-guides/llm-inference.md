@@ -40,6 +40,8 @@ Tokenization is the process of **breaking down text into smaller units (tokens)*
 
 Each token is assigned a **unique number** from the model’s vocabulary. These numerical representations allow the model to **perform mathematical computations**.
 
+![Convert Tokens to Vectors](../images/06.png)
+
 ### **2.2. Why Convert Tokens to Vectors?**
 
 Once the input text is tokenized into numbers, it needs to be **converted into vectors** so the model can process relationships between words effectively. Each token is mapped to a **vector in a high-dimensional space**, where similar words are placed closer together.
@@ -50,11 +52,14 @@ Once the input text is tokenized into numbers, it needs to be **converted into v
 <p align="center"><em>Example 2. Vectorization Representation</em></p>
 
 These vector representations allow the model to **analyze word relationships based on their meanings rather than just individual character sequences**.
+
 ## **3. Initial Prompt Processing and Attention Mechanism**
 
 ### **3.1. Understanding the Prefill Phase**
 
 When an LLM receives an input, it does **not immediately generate a response**. Instead, it first **analyzes the entire input** in a process called **Prefill Phase**. This phase ensures that the model **understands the context and retrieves relevant knowledge before producing an output**.
+
+![Prefill Phase](../images/07.png)
 
 During the Prefill Phase, the model:
 
@@ -74,6 +79,8 @@ When an LLM processes **"What is NEAR AI?"**, it doesn’t just look at the word
 | **Head 2 (The Community Manager)** | Looks at how NEAR AI interacts with **its developer and research community**. |
 | **Head 3 (The Blockchain Engineer)** | Focuses on the **technical aspects of decentralization and smart contracts**. |
 <p align="center"><em>Example 3. How Different Team Members (Attention Heads) Interpret "What is NEAR AI?"</em></p>
+
+![Attention Heads Work](../images/08.png)
 
 Each **Attention Head** is like **one of these team members**, processing the **same input** but through a **different set of learned weights (WQ, WK, WV)**.
 
@@ -97,6 +104,8 @@ The model does **not generate the full sentence at once**. Instead, it predicts 
 5. **Fifth token** → `" decentralized"`
 <p align="center"><em>Example 4. Token Generation Representation</em></p>
 
+![Decode Phase](../images/09.png)
+
 ### **4.2. Finalizing the Response – De-tokenization**
 
 De-tokenization is the final step in the inference process, where numerical token outputs are converted back into readable text.
@@ -108,6 +117,8 @@ De-tokenization is the final step in the inference process, where numerical toke
 
 This ensures that the final response is **coherent and correctly formatted**.
 
+![De-tokenization](../images/10.png)
+
 ## **5. The Complete LLM Inference Loop**
 
 1. **User input:** `"What is NEAR AI?"`
@@ -118,6 +129,8 @@ This ensures that the final response is **coherent and correctly formatted**.
 6. **Decode Phase:** The model generates tokens sequentially.
 7. **De-tokenization:** The final response is converted back to text.
 8. **Final Output:** `"NEAR AI is a decentralized AI platform."`
+
+![LLM Inference Loop](../images/11.png)
 
 ## **What Comes Next?**
 
