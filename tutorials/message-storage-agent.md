@@ -47,7 +47,7 @@ Our Python-based AI agent will perform the following tasks:
     
     ```
     python3 -m venv env
-    source env/bin/activate   # On Windows: env\Scripts\activate
+    source env/bin/activate
     ```
     
 3. This guide uses standard Python libraries (`json`, `time`, `hashlib`, and `os`), so no additional installations are required.
