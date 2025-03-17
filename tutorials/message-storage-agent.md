@@ -261,3 +261,5 @@ By completing this exercise, you now understand:
 - How NEAR's messaging model uses a header, payload, and signature to ensure secure communication.
 - The importance of persistent storage for maintaining context in decentralized systems.
 - How a practical implementation of these concepts can form the basis for more advanced features like context-aware LLM inference.
+
+For further reading, check the [NEAR AI Documentation](https://docs.near.ai/)
