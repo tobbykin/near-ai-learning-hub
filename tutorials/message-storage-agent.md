@@ -2,7 +2,7 @@
 
 In decentralized systems such as NEAR, AI agents exchange data using a structured messaging model. In this guide, we explain how to build a simple Python-based AI agent that creates, verifies, and persistently stores messages. This process is essential for ensuring data integrity, secure inter-agent communication, and maintaining historical context for advanced processing.
 
-## What Is NEAR’s Messaging Model?
+## 1. What Is NEAR’s Messaging Model?
 
 NEAR’s messaging model uses **message files** composed of three main components:
 
@@ -17,7 +17,7 @@ A cryptographic hash (using SHA256 in our example) computed over the header and 
 
 By following this structure, agents can be confident that their communications are authentic and have not been modified in transit.
 
-## Why Is This Important?
+## 2. Why Is This Important?
 
 Consider a system where multiple agents interact:
 
@@ -25,7 +25,7 @@ Consider a system where multiple agents interact:
 - Persistently storing messages (simulated here with a JSON file) allows an agent to “remember” past interactions. This historical data can later be used to enhance advanced processing, such as providing context for language model inference.
 - Understanding this model is crucial for developing robust, decentralized AI systems on NEAR.
 
-## Let's Build the Agent 😼🛠️
+## 3. Let's Build the Agent 😼🛠️
 
 Our Python-based AI agent will perform the following tasks:
 
@@ -227,7 +227,7 @@ if __name__ == "__main__":
 
 ```
 
-## What’s Happening Under the Hood?
+## 4. What’s Happening Under the Hood?
 
 1. The `create_message` method builds a message with a header, payload, and a signature calculated using SHA256. This signature ensures that any changes to the message can be detected.
     
@@ -237,7 +237,7 @@ if __name__ == "__main__":
     
 4. When processing an incoming message, the agent verifies its integrity, stores it, and if the command is `"store_data"`, generates an acknowledgment response. The `simulate` function demonstrates this full cycle by printing the incoming message, the response, and all stored messages.
 
-## Running the Exercise
+## 5. Running the Exercise
 
 1. **Run the Agent:**
     
@@ -254,7 +254,7 @@ if __name__ == "__main__":
     - Finally, the agent prints all stored messages, showing the full history.
 
 
-## Wrapping Up
+## 6. Wrapping Up
 
 By completing this exercise, you now understand:
 
