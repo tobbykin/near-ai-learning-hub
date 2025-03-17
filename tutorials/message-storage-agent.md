@@ -21,11 +21,11 @@ By following this structure, agents can be confident that their communications a
 
 Consider a system where multiple agents interact:
 
-- **Security:** Every message is signed, so recipients know the data has not been changed.
-- **Context:** Persistently storing messages (simulated here with a JSON file) allows an agent to “remember” past interactions. This historical data can later be used to enhance advanced processing, such as providing context for language model inference.
-- **Foundation:** Understanding this model is crucial for developing robust, decentralized AI systems on NEAR.
+- Every message is signed, so recipients know the data has not been changed.
+- Persistently storing messages (simulated here with a JSON file) allows an agent to “remember” past interactions. This historical data can later be used to enhance advanced processing, such as providing context for language model inference.
+- Understanding this model is crucial for developing robust, decentralized AI systems on NEAR.
 
-## Let's Build the Agent
+## Let's Build the Agent 😼🛠️
 
 Our Python-based AI agent will perform the following tasks:
 
@@ -224,23 +224,16 @@ if __name__ == "__main__":
 
 ```
 
-### What’s Happening Under the Hood
+### What’s Happening Under the Hood?
 
-1. **Message Creation:**
-
-    The `create_message` method builds a message with a header, payload, and a signature calculated using SHA256. This signature ensures that any changes to the message can be detected.
+1. The `create_message` method builds a message with a header, payload, and a signature calculated using SHA256. This signature ensures that any changes to the message can be detected.
     
-2. **Message Verification:**
-
-    The `verify_message` method recalculates the signature after stripping the original signature. If they match, the message is confirmed as unaltered.
+2. The `verify_message` method recalculates the signature after stripping the original signature. If they match, the message is confirmed as unaltered.
     
-3. **Persistent Storage:**
-
-    Messages are stored in a JSON file via the `store_message` method. This simulates a persistent storage solution, allowing your agent to retain historical data.
+3. Messages are stored in a JSON file via the `store_message` method. This simulates a persistent storage solution, allowing your agent to retain historical data.
     
-4. **Processing and Response:**
-
-    When processing an incoming message, the agent verifies its integrity, stores it, and if the command is `"store_data"`, generates an acknowledgment response. The `simulate` function demonstrates this full cycle by printing the incoming message, the response, and all stored messages.
+4. When processing an incoming message, the agent verifies its integrity, stores it, and if the command is `"store_data"`, generates an acknowledgment response. The `simulate` function demonstrates this full cycle by printing the incoming message, the response, and all stored messages.
+---
 
 ### Running the Exercise
 
