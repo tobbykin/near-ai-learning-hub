@@ -224,7 +224,7 @@ if __name__ == "__main__":
 
 ```
 
-### What’s Happening Under the Hood?
+## What’s Happening Under the Hood?
 
 1. The `create_message` method builds a message with a header, payload, and a signature calculated using SHA256. This signature ensures that any changes to the message can be detected.
     
@@ -233,9 +233,8 @@ if __name__ == "__main__":
 3. Messages are stored in a JSON file via the `store_message` method. This simulates a persistent storage solution, allowing your agent to retain historical data.
     
 4. When processing an incoming message, the agent verifies its integrity, stores it, and if the command is `"store_data"`, generates an acknowledgment response. The `simulate` function demonstrates this full cycle by printing the incoming message, the response, and all stored messages.
----
 
-### Running the Exercise
+## Running the Exercise
 
 1. **Run the Agent:**
     
