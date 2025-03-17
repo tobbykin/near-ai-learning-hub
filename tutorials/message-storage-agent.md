@@ -1,4 +1,4 @@
-# Building a Secure, Context-Aware AI Agent with Persistent Message Storage
+# Designing a Secure AI Agent for Decentralized Systems: Verified Messaging and Persistent Storage
 
 In decentralized systems such as NEAR, AI agents exchange data using a structured messaging model. In this guide, we explain how to build a simple Python-based AI agent that creates, verifies, and persistently stores messages. This process is essential for ensuring data integrity, secure inter-agent communication, and maintaining historical context for advanced processing.
 
@@ -6,17 +6,14 @@ In decentralized systems such as NEAR, AI agents exchange data using a structure
 
 NEAR’s messaging model uses **message files** composed of three main components:
 
-**Header:**
+- **Header:**
+Contains metadata such as the sender, recipient, timestamp, and a unique message ID. This metadata makes every message traceable and unique.
     
-    Contains metadata such as the sender, recipient, timestamp, and a unique message ID. This metadata makes every message traceable and unique.
-    
-**Payload:**
-    
-    This is the content of the message. It carries commands or data that the agent must process. For example, a command to store specific data.
+- **Payload:**
+This is the content of the message. It carries commands or data that the agent must process. For example, a command to store specific data.
     
 - **Signature:**
-    
-    A cryptographic hash (using SHA256 in our example) computed over the header and payload. The signature guarantees that if any part of the message is altered, the signature will not match, thereby alerting the system to potential tampering.
+A cryptographic hash (using SHA256 in our example) computed over the header and payload. The signature guarantees that if any part of the message is altered, the signature will not match, thereby alerting the system to potential tampering.
 
 By following this structure, agents can be confident that their communications are authentic and have not been modified in transit.
 
@@ -230,19 +227,19 @@ if __name__ == "__main__":
 ### What’s Happening Under the Hood
 
 1. **Message Creation:**
-    
+
     The `create_message` method builds a message with a header, payload, and a signature calculated using SHA256. This signature ensures that any changes to the message can be detected.
     
 2. **Message Verification:**
-    
+
     The `verify_message` method recalculates the signature after stripping the original signature. If they match, the message is confirmed as unaltered.
     
 3. **Persistent Storage:**
-    
+
     Messages are stored in a JSON file via the `store_message` method. This simulates a persistent storage solution, allowing your agent to retain historical data.
     
 4. **Processing and Response:**
-    
+
     When processing an incoming message, the agent verifies its integrity, stores it, and if the command is `"store_data"`, generates an acknowledgment response. The `simulate` function demonstrates this full cycle by printing the incoming message, the response, and all stored messages.
 
 ### Running the Exercise
@@ -269,5 +266,3 @@ By completing this exercise, you now understand:
 - How NEAR's messaging model uses a header, payload, and signature to ensure secure communication.
 - The importance of persistent storage for maintaining context in decentralized systems.
 - How a practical implementation of these concepts can form the basis for more advanced features like context-aware LLM inference.
-
-This guide aims to provide clear, detailed insights into building secure, context-rich AI agents on NEAR.
