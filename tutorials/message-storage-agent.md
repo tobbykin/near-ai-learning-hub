@@ -34,6 +34,9 @@ Our Python-based AI agent will perform the following tasks:
 3. Store the message persistently (simulating on-chain storage).
 4. Retrieve stored messages to provide historical context.
 
+> 🌤️ If you have any questions about environment setup or prerequisite installations (such as Python, NEAR CLI, or necessary packages), please refer to our [Getting Started with NEAR AI](./getting-started-with-near-ai.md) guide. It covers the fundamental setup you need before diving into this tutorial.
+
+
 ### Step 1: Environment Setup
 
 1. **Create a Project Directory:**
