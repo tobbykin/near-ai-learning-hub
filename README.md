@@ -75,7 +75,7 @@ Your contributions help expand and refine the ecosystem of NEAR AI resources.
 ## Get in Touch
 
 ### NEAR AI Social
-- **Twitter/X:** [@near_ai](https://twitter.com/near_ai)  
+- **Twitter:** [@near_ai](https://twitter.com/near_ai)  
   Follow for the latest news, updates, and community highlights.
 
 
