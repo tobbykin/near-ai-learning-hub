@@ -22,7 +22,7 @@ Before starting, ensure you have:
 1. macOS or Linux (Windows users should use WSL2 or a VM)
 2. Python 3.9 - 3.11 (NEAR AI does NOT support Python 3.12+ yet)
 3. Git installed
-4. A NEAR Wallet (If you do not have a NEAR account, you can create one for free using wallets listed [here](wallet.near.org.))
+4. A NEAR Wallet (If you do not have a NEAR account, you can create one for free using wallets listed [here](wallet.near.org))
 
 > **📝 Why is a NEAR Wallet needed?**
 > 
